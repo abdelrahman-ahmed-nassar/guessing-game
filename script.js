@@ -57,7 +57,7 @@ document.querySelector('.check').addEventListener('click', function () {
     if (score > 1) {
       score--;
       document.querySelector('.score').textContent = score;
-      displayMessage(guess > secretNumber ? '"📈 Too high! ' : '📉 Too low!');
+      displayMessage(guess > secretNumber ? 'Too high! 📈' : 'Too low! 📉');
     } else {
       document.querySelector('.score').textContent = 0;
       displayMessage('💥 You lost the game!');
