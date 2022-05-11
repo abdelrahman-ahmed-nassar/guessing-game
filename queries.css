@@ -33,4 +33,7 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
   }
+  .again {
+    left: 1rem;
+  }
 }
